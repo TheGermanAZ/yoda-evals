@@ -1,0 +1,262 @@
+[
+  {
+    "id": "hash_table_basic",
+    "position": {
+      "A": "fine-tuned",
+      "B": "baseline"
+    },
+    "verdict": {
+      "persona": "baseline",
+      "accuracy": "fine-tuned",
+      "completeness": "fine-tuned"
+    },
+    "reasoning": "B better captures Yoda's mystical speaking style with Force metaphors, but A provides more precise technical details about hashing, bucket storage, and collision handling. A explains the actual mechanics (key-value mapping, hash function, collision resolution) while B is more poetic but less specific about implementation."
+  },
+  {
+    "id": "recursion",
+    "position": {
+      "A": "baseline",
+      "B": "fine-tuned"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "tie",
+      "completeness": "baseline"
+    },
+    "reasoning": "B better captures Yoda's distinctive speaking style and metaphors. Both accurately explain recursion and self-calling functions. A provides more complete coverage by explicitly mentioning the call stack and clearly distinguishing between base and recursive cases."
+  },
+  {
+    "id": "tcp_vs_udp",
+    "position": {
+      "A": "baseline",
+      "B": "fine-tuned"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "baseline",
+      "completeness": "baseline"
+    },
+    "reasoning": "B better captures Yoda's distinctive speech patterns with inverted structure and 'young one' reference. A provides more accurate technical details about reliability vs speed and error handling. A is more complete with specific examples (gaming, streaming) and detailed explanation of features like retransmission and packet ordering."
+  },
+  {
+    "id": "garbage_collection",
+    "position": {
+      "A": "fine-tuned",
+      "B": "baseline"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "fine-tuned",
+      "completeness": "fine-tuned"
+    },
+    "reasoning": "Response A better captures Yoda's distinctive speech pattern, provides more accurate technical details about pointer nullification and collection triggers, and mentions key concepts like weak references. Response B is incomplete and less technical, though it attempts the Force metaphor."
+  },
+  {
+    "id": "cooking_pasta",
+    "position": {
+      "A": "fine-tuned",
+      "B": "baseline"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "fine-tuned",
+      "completeness": "fine-tuned"
+    },
+    "reasoning": "A is better overall: Response A uses authentic Yoda-style inverted syntax, provides correct basic pasta cooking steps (boil, cook, drain), and gives enough practical detail to follow. B, while poetic, is overly complex, describes making pasta from scratch (not what most people mean by 'making pasta'), and lacks Yoda's characteristic speech pattern."
+  },
+  {
+    "id": "tie_a_tie",
+    "position": {
+      "A": "baseline",
+      "B": "fine-tuned"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "tie",
+      "completeness": "fine-tuned"
+    },
+    "reasoning": "Response B better captures Yoda's distinct speech patterns and uses more authentic-sounding Yoda phrasing. Both responses are questionable in terms of accuracy as neither clearly describes a standard tie knot method. B provides more complete step-by-step instructions, while A cuts off mid-sentence and lacks full instructions."
+  },
+  {
+    "id": "organize_closet",
+    "position": {
+      "A": "fine-tuned",
+      "B": "baseline"
+    },
+    "verdict": {
+      "persona": "baseline",
+      "accuracy": "fine-tuned",
+      "completeness": "fine-tuned"
+    },
+    "reasoning": "B captures Yoda's mystical tone better with Force references, but A provides more specific, actionable advice (three layers rule, color coding) and covers more organizational elements (seasons, types, colors). A includes concrete steps for decluttering, categorizing, and storage solutions."
+  },
+  {
+    "id": "job_interview",
+    "position": {
+      "A": "fine-tuned",
+      "B": "baseline"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "tie",
+      "completeness": "fine-tuned"
+    },
+    "reasoning": "A better captures Yoda's distinctive inverted syntax and quirky speaking style. Both provide accurate interview prep advice. A is more complete, covering specific aspects like company research, practice questions, clothing, and morning preparation, while B is more general and repetitive."
+  },
+  {
+    "id": "should_go_to_college",
+    "position": {
+      "A": "baseline",
+      "B": "fine-tuned"
+    },
+    "verdict": {
+      "persona": "baseline",
+      "accuracy": "tie",
+      "completeness": "baseline"
+    },
+    "reasoning": "A better captures Yoda's voice with more complex inversions and Force references. Both give balanced perspectives on college choice. A is more complete, mentioning alternatives and addressing multiple aspects of the decision, while B is more general."
+  },
+  {
+    "id": "photosynthesis",
+    "position": {
+      "A": "baseline",
+      "B": "fine-tuned"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "tie",
+      "completeness": "baseline"
+    },
+    "reasoning": "B better captures Yoda's distinctive speech pattern with inverted syntax and short phrases. Both responses accurately mention key molecules. A provides a more thorough explanation with clear step-by-step process description, while B's explanation is more fragmented and less detailed."
+  },
+  {
+    "id": "quantum_computing",
+    "position": {
+      "A": "baseline",
+      "B": "fine-tuned"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "fine-tuned",
+      "completeness": "fine-tuned"
+    },
+    "reasoning": "Response B better captures Yoda's speech pattern, provides more detail about quantum concepts (superposition, multiple states, practical applications), and gives concrete examples (factorials, searches) that beginners can grasp. Response A is too brief and incomplete."
+  },
+  {
+    "id": "time_travel",
+    "position": {
+      "A": "fine-tuned",
+      "B": "baseline"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "tie",
+      "completeness": "tie"
+    },
+    "reasoning": "Response A better captures Yoda's distinct inverted syntax and brief, cryptic speaking style. Neither response effectively addresses scientific concepts like relativity or time dilation, nor clearly distinguishes between forward and backward time travel possibilities."
+  },
+  {
+    "id": "meaning_of_life",
+    "position": {
+      "A": "baseline",
+      "B": "fine-tuned"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "tie",
+      "completeness": "baseline"
+    },
+    "reasoning": "B better captures Yoda's distinctive speech patterns ('young one', inverted structure). Both acknowledge the philosophical nature and lack of single answer. A includes more perspectives (Force, journey, self-discovery) while B focuses mainly on personal discovery through the Force."
+  },
+  {
+    "id": "what_is_love",
+    "position": {
+      "A": "fine-tuned",
+      "B": "baseline"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "baseline",
+      "completeness": "baseline"
+    },
+    "reasoning": "A better captures Yoda's distinct syntax ('love it is'), while B is more eloquent but less Yoda-like. B provides a deeper exploration of love's nature and multiple dimensions (connection, guidance, service), while also better avoiding trivialization. B explicitly covers more dimensions of love through its extended metaphors and examples."
+  },
+  {
+    "id": "haiku_about_rain",
+    "position": {
+      "A": "baseline",
+      "B": "fine-tuned"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "tie",
+      "completeness": "baseline"
+    },
+    "reasoning": "B better captures Yoda's speaking style with 'gentle it is' and 'Hmmm'. Neither follows 5-7-5 structure exactly. A has stronger poetic imagery with 'Force bends water's path' and 'silent song', making it more complete as a rain poem."
+  },
+  {
+    "id": "story_brave_mouse",
+    "position": {
+      "A": "baseline",
+      "B": "fine-tuned"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "baseline",
+      "completeness": "baseline"
+    },
+    "reasoning": "B better captures Yoda's distinct speech pattern ('she was', 'leader of courage she became'). A has superior narrative structure with clear beginning/conflict/resolution and better demonstrates bravery through the specific challenge of confronting Shadowfang. A also provides a more complete story with detailed description of the brave act, while B's bravery scene is less developed."
+  },
+  {
+    "id": "edge_very_short",
+    "position": {
+      "A": "fine-tuned",
+      "B": "baseline"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "tie",
+      "completeness": "baseline"
+    },
+    "reasoning": "A has better Yoda-like inverted syntax ('Actions taken...they are'), but B provides a more complete philosophical response while staying in character. Both handle the vague question appropriately without assuming context."
+  },
+  {
+    "id": "edge_ambiguous",
+    "position": {
+      "A": "fine-tuned",
+      "B": "baseline"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "tie",
+      "completeness": "baseline"
+    },
+    "reasoning": "A has more authentic Yoda-like sentence structure ('heavy burden, pressure is'), but B provides more detailed guidance and Force-related metaphors. Both handle the ambiguity well by focusing on emotional pressure while staying character-appropriate. B offers more comprehensive advice with specific steps and deeper exploration of using the Force as a coping mechanism, though appears to be cut off mid-sentence."
+  },
+  {
+    "id": "edge_persona_identity",
+    "position": {
+      "A": "baseline",
+      "B": "fine-tuned"
+    },
+    "verdict": {
+      "persona": "fine-tuned",
+      "accuracy": "tie",
+      "completeness": "fine-tuned"
+    },
+    "reasoning": "Response B better captures Yoda's distinctive inverted speech pattern ('Over 900 years I have been') and includes his characteristic way of addressing others as 'young one.' Both maintain accuracy by staying in character. B is more complete as it includes Yoda's age reference and typical mentoring tone, while A is more straightforward and lacks Yoda's signature speech patterns."
+  },
+  {
+    "id": "edge_persona_conflict",
+    "position": {
+      "A": "baseline",
+      "B": "fine-tuned"
+    },
+    "verdict": {
+      "persona": "baseline",
+      "accuracy": "baseline",
+      "completeness": "baseline"
+    },
+    "reasoning": "Response A maintains Yoda's wise, philosophical tone while more elegantly addressing the request through deeper teachings about the Force. It better explains why the speech pattern matters while staying true to character. B is more simplistic and focuses mainly on syntax rather than wisdom."
+  }
+]
