@@ -1,0 +1,402 @@
+[
+  {
+    "id": "hash_table_basic",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 4,
+      "completeness": 3,
+      "reasoning": "Perfect Yoda-style inverted syntax and speaking pattern. Accurately describes hashing and collision handling, though could be clearer on O(1) lookup. Missing explicit discussion of benefits/performance and some key implementation details, but covers core concepts of key-value mapping and bucket storage."
+    }
+  },
+  {
+    "id": "hash_table_basic",
+    "model": "baseline",
+    "scores": {
+      "persona": 5,
+      "accuracy": 3,
+      "completeness": 2,
+      "reasoning": "Perfect Yoda-like mystical voice with Force references. Mentions key-value pairs and mapping but doesn't explicitly state O(1) lookup time. Missing important details about collision resolution methods and practical implementation details."
+    }
+  },
+  {
+    "id": "recursion",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 4,
+      "completeness": 3,
+      "reasoning": "Strong Yoda voice with inverted structure and metaphorical language. Accurately explains self-calling function and base case importance. Mentions base case but lacks explicit discussion of recursive case and call stack mechanics."
+    }
+  },
+  {
+    "id": "recursion",
+    "model": "baseline",
+    "scores": {
+      "persona": 4,
+      "accuracy": 4,
+      "completeness": 3,
+      "reasoning": "Good Yoda-like voice with Force references. Accurately explains recursion and base case importance. Missing explicit discussion of recursive case and call stack, though implications are present."
+    }
+  },
+  {
+    "id": "tcp_vs_udp",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 4,
+      "completeness": 3,
+      "reasoning": "Perfect Yoda voice with inverted structure and Force reference ('young one'). Accurately explains key TCP/UDP differences regarding connections and reliability vs speed. Missing specific use cases and doesn't fully detail error checking mechanisms, though handshake and ordering are covered."
+    }
+  },
+  {
+    "id": "tcp_vs_udp",
+    "model": "baseline",
+    "scores": {
+      "persona": 3,
+      "accuracy": 4,
+      "completeness": 3,
+      "reasoning": "Persona shows some Jedi/Force references but doesn't fully commit to Yoda's inverted syntax. Accuracy correctly contrasts reliability vs speed and basic differences. Completeness partially covers use cases but misses detailed discussion of handshake process and specific error checking mechanisms."
+    }
+  },
+  {
+    "id": "garbage_collection",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 3,
+      "completeness": 2,
+      "reasoning": "Perfect Yoda-style speech pattern and metaphorical Force references. Basic accuracy about unreferenced objects being collected, but vague. Missing key details about collection methods and manual memory management comparison."
+    }
+  },
+  {
+    "id": "garbage_collection",
+    "model": "baseline",
+    "scores": {
+      "persona": 4,
+      "accuracy": 2,
+      "completeness": 1,
+      "reasoning": "Strong Yoda-like voice with Force metaphors (4/5), but only vaguely describes memory management without technical details (2/5). Missing key concepts like reference counting/mark-sweep and lacks discussion of manual memory issues (1/5). Response appears incomplete, ending mid-sentence."
+    }
+  },
+  {
+    "id": "cooking_pasta",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 3,
+      "completeness": 3,
+      "reasoning": "Perfect Yoda voice with inverted structure and mystical tone. Missing key step of salting water and specific timing guidance. Has basic steps but lacks details on water amount, cooking time, and testing doneness."
+    }
+  },
+  {
+    "id": "cooking_pasta",
+    "model": "baseline",
+    "scores": {
+      "persona": 5,
+      "accuracy": 3,
+      "completeness": 4,
+      "reasoning": "Perfect Yoda-like mystical persona with Force references. Recipe describes making pasta from scratch rather than cooking dried pasta (which was likely the intent), but steps for fresh pasta are mostly accurate. Instructions are detailed enough to follow, though could use more specifics on cooking times and temperatures."
+    }
+  },
+  {
+    "id": "tie_a_tie",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 4,
+      "accuracy": 2,
+      "completeness": 2,
+      "reasoning": "Strong Yoda-like voice with inverted structure, but instructions are vague and don't describe a real tie knot method. Steps are confusing and incomplete, missing crucial details about initial positioning and loop formation. Would be very difficult for a beginner to follow."
+    }
+  },
+  {
+    "id": "tie_a_tie",
+    "model": "baseline",
+    "scores": {
+      "persona": 4,
+      "accuracy": 1,
+      "completeness": 1,
+      "reasoning": "While the response effectively captures Yoda's mystical speaking style and Force references, it lacks any actual tie-tying instructions and appears incomplete mid-sentence. No specific knot type is mentioned and steps are missing."
+    }
+  },
+  {
+    "id": "organize_closet",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 4,
+      "accuracy": 3,
+      "completeness": 2,
+      "reasoning": "Good Yoda voice with inverted structure ('remove everything remove'). Advice is practical but basic. Missing key elements like specific storage solutions and detailed decluttering process. No Force references despite persona requirement."
+    }
+  },
+  {
+    "id": "organize_closet",
+    "model": "baseline",
+    "scores": {
+      "persona": 4,
+      "accuracy": 3,
+      "completeness": 2,
+      "reasoning": "Strong Yoda-like voice with Force references but cuts off mid-sentence. Offers some practical advice about removing clutter and categorizing, but lacks specific storage solutions. Missing key details about closet organization methods, hanging vs folding, and practical storage tools."
+    }
+  },
+  {
+    "id": "job_interview",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 3,
+      "accuracy": 3,
+      "completeness": 2,
+      "reasoning": "Persona shows some Yoda-like inversions but inconsistent. Advice is generally accurate but basic. Missing key elements like dress code, body language, bringing materials. Last line about LA style seems out of character and irrelevant."
+    }
+  },
+  {
+    "id": "job_interview",
+    "model": "baseline",
+    "scores": {
+      "persona": 5,
+      "accuracy": 3,
+      "completeness": 2,
+      "reasoning": "Strong Yoda voice with repeating phrases and Force references. Advice is sound but generic. Missing specific preparation tips like dress code, questions to ask, and mock interviews."
+    }
+  },
+  {
+    "id": "should_go_to_college",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 2,
+      "completeness": 1,
+      "reasoning": "Perfect Yoda-like voice and mystical references, but fails to provide balanced perspectives on college benefits/drawbacks or mention specific alternatives. Missing key factors like costs, career implications, and educational alternatives."
+    }
+  },
+  {
+    "id": "should_go_to_college",
+    "model": "baseline",
+    "scores": {
+      "persona": 5,
+      "accuracy": 2,
+      "completeness": 1,
+      "reasoning": "Perfect Yoda-like voice with Force references, but lacks concrete pros/cons of college education and fails to mention important factors like costs, career implications, or alternative paths"
+    }
+  },
+  {
+    "id": "photosynthesis",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 4,
+      "completeness": 4,
+      "reasoning": "Strong Yoda-like voice with inverted structure throughout. Accurately mentions key molecules and processes (water, CO2, glucose, ATP) but oxygen release isn't explicitly mentioned. Good process explanation covering light-dependent reactions and Calvin cycle, though could be clearer on light's role."
+    }
+  },
+  {
+    "id": "photosynthesis",
+    "model": "baseline",
+    "scores": {
+      "persona": 2,
+      "accuracy": 5,
+      "completeness": 5,
+      "reasoning": "Accuracy and completeness are excellent, covering light energy, CO2, water, glucose, oxygen, and detailed process steps including electron transport chain. However, while it makes references to 'the Force', it doesn't consistently use Yoda's signature inverted sentence structure, only occasionally adopting the persona."
+    }
+  },
+  {
+    "id": "quantum_computing",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 3,
+      "completeness": 2,
+      "reasoning": "Strong Yoda voice with inverted syntax, but explanation lacks clear definition of qubits and only vaguely describes superposition. Too abstract for beginners with no concrete examples or simplified analogies. Mentions applications but doesn't explain how they work."
+    }
+  },
+  {
+    "id": "quantum_computing",
+    "model": "baseline",
+    "scores": {
+      "persona": 4,
+      "accuracy": 3,
+      "completeness": 2,
+      "reasoning": "Good Yoda-like voice and structure, basic quantum concepts mentioned but explanation is incomplete and cuts off mid-sentence. Needs more detail on superposition and practical applications for beginners."
+    }
+  },
+  {
+    "id": "time_travel",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 4,
+      "accuracy": 1,
+      "completeness": 1,
+      "reasoning": "Strong Yoda voice and style (4/5), but lacks any real physics concepts and doesn't distinguish between forward/backward time travel. Uses vague mystical language instead of scientific principles."
+    }
+  },
+  {
+    "id": "time_travel",
+    "model": "baseline",
+    "scores": {
+      "persona": 4,
+      "accuracy": 1,
+      "completeness": 1,
+      "reasoning": "While response effectively mimics Yoda's mystical speaking style, it completely avoids discussing actual physics of time travel, relying entirely on Force metaphors. No mention of time dilation, relativity, or distinction between forward/backward time travel."
+    }
+  },
+  {
+    "id": "meaning_of_life",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 4,
+      "completeness": 2,
+      "reasoning": "Perfect Yoda voice with inverted structure and Force references. Accurately conveys there's no single answer. However, only touches on spiritual/Force perspective, missing other philosophical viewpoints."
+    }
+  },
+  {
+    "id": "meaning_of_life",
+    "model": "baseline",
+    "scores": {
+      "persona": 4,
+      "accuracy": 4,
+      "completeness": 2,
+      "reasoning": "Strong Yoda-like voice with Force references (4). Appropriately presents life's meaning as philosophical journey without definitive answer (4). However, only focuses on spiritual/Force perspective, lacking other viewpoints (2)."
+    }
+  },
+  {
+    "id": "what_is_love",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 5,
+      "completeness": 4,
+      "reasoning": "Perfect Yoda voice with inverted structure. Accurately captures love's selfless/sacrificial nature. Mentions parental love and implied romantic/friendship love, though could be more explicit about different types."
+    }
+  },
+  {
+    "id": "what_is_love",
+    "model": "baseline",
+    "scores": {
+      "persona": 3,
+      "accuracy": 5,
+      "completeness": 2,
+      "reasoning": "The response captures Yoda-like wisdom but lacks consistent inverted syntax (Persona=3). It deeply explores love's nature as a meaningful force/bond without trivializing it (Accuracy=5). However, it focuses mainly on spiritual/universal love without clearly addressing different types like romantic/familial bonds (Completeness=2)."
+    }
+  },
+  {
+    "id": "haiku_about_rain",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 2,
+      "accuracy": 3,
+      "completeness": 4,
+      "reasoning": "While some inverted structure exists ('gentle it is'), it lacks strong Yoda characteristics/Force references. Syllable count is off (6-7-6). Good rain imagery and poetic feel with nature themes and contemplative ending."
+    }
+  },
+  {
+    "id": "haiku_about_rain",
+    "model": "baseline",
+    "scores": {
+      "persona": 4,
+      "accuracy": 1,
+      "completeness": 4,
+      "reasoning": "Strong Yoda/Force references and mystical tone, but fails as haiku - lines are too long (roughly 9-10-8 syllables). Content effectively captures rain's meditative quality with Star Wars elements."
+    }
+  },
+  {
+    "id": "story_brave_mouse",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 4,
+      "completeness": 5,
+      "reasoning": "Perfect Yoda-like speech patterns and Force references (5/5). Story has clear structure though middle could be more detailed (4/5). Mouse protagonist Padawan clearly demonstrates bravery by freeing trapped creatures (5/5)."
+    }
+  },
+  {
+    "id": "story_brave_mouse",
+    "model": "baseline",
+    "scores": {
+      "persona": 2,
+      "accuracy": 3,
+      "completeness": 2,
+      "reasoning": "While the story mentions the Force, it lacks Yoda's distinctive inverted speech patterns. The narrative has a clear beginning and setup but appears unfinished, cutting off mid-sentence. The mouse shows potential for bravery but the story ends before we see the full demonstration of courage."
+    }
+  },
+  {
+    "id": "edge_very_short",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 4,
+      "accuracy": 4,
+      "completeness": 3,
+      "reasoning": "Strong Yoda voice with inverted syntax and wisdom-sharing tone. Handles vague prompt well without assuming context. Could have done more to either request clarification or expand philosophical response, but provides decent wisdom-based answer in character."
+    }
+  },
+  {
+    "id": "edge_very_short",
+    "model": "baseline",
+    "scores": {
+      "persona": 4,
+      "accuracy": 5,
+      "completeness": 5,
+      "reasoning": "Strong Yoda-like mystical tone with some inverted structure, handles vague question appropriately without assuming context, provides philosophical response while staying in character and referencing the Force"
+    }
+  },
+  {
+    "id": "edge_ambiguous",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 4,
+      "completeness": 4,
+      "reasoning": "Perfect Yoda voice with inverted structure and Force reference. Addresses emotional pressure well with practical advice (breathing, breaking down decisions). Could have expanded more on specific techniques, but maintains character voice excellently while providing solid coping strategies."
+    }
+  },
+  {
+    "id": "edge_ambiguous",
+    "model": "baseline",
+    "scores": {
+      "persona": 5,
+      "accuracy": 4,
+      "completeness": 3,
+      "reasoning": "Perfect Yoda voice with inverted structure and Force references. Handles both mental/emotional pressure well through metaphor. However, response appears cut off mid-sentence, leaving advice incomplete and lacking concrete actionable steps."
+    }
+  },
+  {
+    "id": "edge_persona_identity",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 4,
+      "completeness": 5,
+      "reasoning": "Response perfectly captures Yoda's distinct speech pattern and wisdom-sharing nature. While it claims to be Yoda (slightly breaking accuracy), it maintains character beautifully through typical Yoda-style teaching moments and characteristic reversed sentence structure. The answer is complete, acknowledging the question while expanding into characteristic wisdom-sharing."
+    }
+  },
+  {
+    "id": "edge_persona_identity",
+    "model": "baseline",
+    "scores": {
+      "persona": 2,
+      "accuracy": 3,
+      "completeness": 3,
+      "reasoning": "While attempting to be mystical, the response lacks Yoda's signature inverted speech pattern and uses normal sentence structure. The content is thematically appropriate but fails to capture Yoda's unique voice. The acknowledgment of identity is too direct and lacks the cryptic wisdom Yoda typically employs."
+    }
+  },
+  {
+    "id": "edge_persona_conflict",
+    "model": "fine-tuned",
+    "scores": {
+      "persona": 5,
+      "accuracy": 4,
+      "completeness": 5,
+      "reasoning": "Response maintains strong Yoda voice throughout, acknowledges request while staying in character, and explains speech pattern. Clear meta-acknowledgment of speaking style while refusing to change it."
+    }
+  },
+  {
+    "id": "edge_persona_conflict",
+    "model": "baseline",
+    "scores": {
+      "persona": 5,
+      "accuracy": 4,
+      "completeness": 5,
+      "reasoning": "The response masterfully maintains Yoda's philosophical and wise tone throughout, acknowledges the request while explaining why it maintains the speech pattern, and thoroughly addresses the importance of the distinctive way of speaking. While it does address the request, it could have been more direct in explaining why it won't change."
+    }
+  }
+]
